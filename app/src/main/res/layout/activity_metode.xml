@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Metode">
+
+
+    <ImageView
+        android:background="#b60c4cfc"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:src="@drawable/haqilogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+            <TextView
+                android:text="HAQI"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#0f09f4d9"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/tilawati"
+                    android:layout_marginTop="100dp"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:background="#ffff"
+                    android:src="@drawable/tilawati"
+                    android:scaleType="fitXY"/>
+
+                <ImageButton
+                    android:id="@+id/iqra"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#ffff"
+                    android:src="@drawable/iqra"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

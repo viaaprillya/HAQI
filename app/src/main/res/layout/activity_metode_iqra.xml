@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".metodeIqra">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/formLogo"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/iqra"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/iqraPenjelasan"
+        android:layout_width="350dp"
+        android:layout_height="410dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/iqra"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:text="Pilih Guru"
+        android:textStyle="normal"
+        android:id="@+id/pilihguru"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="36dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
